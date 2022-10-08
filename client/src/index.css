@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: rgb(30 41 59);
+}
+
+.mobile-menu {
+  transform: translateX(-100%);
+}
+
+.active-mobile-menu {
+  transform: translateX(0);
+}
+
+.mobile_menu {
+  background: #333333;
+}
+.mobile_menu ul li {
+  border: none;
+  border-top: 1px solid #444;
+  border-bottom: 1px solid #111;
+  cursor: pointer;
+}
+.mobile_menu ul li:hover {
+  background-color: #222;
+  transition: all 0.5s ease;
+}
+
+.mobile_menu ul li:last-child {
+  border-bottom: 1px solid #444;
+}
+.mobile_menu ul li a {
+  color: #999;
+}
+.expand {
+  transform: translateX(0);
+  transition: all 0.5s ease-in-out;
+}
+/*End Mobile menu */
+
+.border-general {
+  border-color: rgba(248, 250, 252, 0.08);
+}
+scale-general:hover {
+  -scale-x: 1.05;
+  --tw-scale-y: 1.05;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y))
+    rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y))
+    scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.bg-1 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(15 23 42 / var(--tw-bg-opacity));
+}
