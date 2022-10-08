@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.59a3ed16.css",
+    "main.js": "/static/js/main.af743269.js",
+    "static/media/nagad_circale.png": "/static/media/nagad_circale.7b9514e2f73789caab35.png",
+    "static/media/bkash_circle.png": "/static/media/bkash_circle.4002fd51dfb1397d6e02.png",
+    "static/media/on.gif": "/static/media/on.ba33e1a2b175334ef998.gif",
+    "static/media/404-not-found.svg": "/static/media/404-not-found.f58b723c5e420e43683574327be5529a.svg",
+    "static/media/lite-coin.png": "/static/media/lite-coin.13659028a74bb397d59c.png",
+    "static/media/payeer.png": "/static/media/payeer.85a1d3f1db6fb5bf8753.png",
+    "static/media/neteller.png": "/static/media/neteller.0cbceaa50c13c1fdc115.png",
+    "static/media/webMoney.png": "/static/media/webMoney.eddc287281e7e754cfd2.png",
+    "static/media/rocket.jpg": "/static/media/rocket.402eb050aeb61e1ef370.jpg",
+    "index.html": "/index.html",
+    "main.59a3ed16.css.map": "/static/css/main.59a3ed16.css.map",
+    "main.af743269.js.map": "/static/js/main.af743269.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.59a3ed16.css",
+    "static/js/main.af743269.js"
+  ]
+}
