@@ -17,11 +17,9 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
       - run: |
-          pm2 stop my-dollar 
+
           npm install
           cd client
           npm i 
           npm run build
           cd ..
-          pm2 start my-dollar
-          sudo systemctl restart nginx
